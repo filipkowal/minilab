@@ -1,22 +1,69 @@
 <!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
 <html>
 <head>
+    <title style="color:blue">Minilab Laboratorium Fotograficzne Częstochowa</title>
+    <meta name="description" value="Minilab Laboratorium Fotograficzne Częstochowa Wywołaj zdjęcia online fotografia">
+    <meta name="kywords" value="Minilab Laboratorium Fotograficzne Częstochowa Wywołaj zdjęcia online fotografia">
+    <!-- CSS plik -->
+    <link rel="stylesheet" type="text/css" href="./style.css">
     <!-- atrybut informujący o kodowaniu polskich znaków-->
-    <META HTTP-EQUIV="content-type" CONTENT="text/html; charset=iso-8859-2">
-    <title>Minilab Laboratorium Fotograficzne Częstochowa</title>
-    <meta name="description" value="Minilab Laboratorium Fotograficzne Częstochowa Wywołaj zdjęcia online fotografia"
-    <meta name="kywords" value="Minilab Laboratorium Fotograficzne Częstochowa Wywołaj zdjęcia online fotografia"
+    <META charset="iso-8859-2">
+    
+    <script>
+    function myFunction(){
+        document.getElementById("demo").innerHTML = "Hello Javascript";
+    }
+    </script>
 </head>
 <body>
-    <h1>Minilab</h1>
-    <hr/>
-    <h2>Sprzęt fotograficzny</h2>
-    <ul>
-        <li><a href="./uslugi_foto.html">Usługi fotograficzne</a></li>
-        <li><a href="./sprzet_foto.html">Sprzęt fotograficzny</a></li>
-        <li><a href="./o_firmie.html">O firmie</a></li>
-        <li><a href="./kontakt.html">Kontakt</a></li>
-    </ul>
+    <header>
+        <a href="./1.html"><img src="./zdjecia/minilab.png"></a>
+    </header>
+    <nav>
+        <a href="./uslugi_foto.html">Usługi fotograficzne</a><br>
+        <a href="./sprzet_foto.html">Sprzęt fotograficzny</a><br>
+        <a href="./o_firmie.html">O firmie</a><br>
+        <a href="./kontakt.html">Kontakt</a><br>
+    </nav>
+    <section>
+        <h2>Laboratorium fotograficzne</h2>
+        <p id="demo">Demonstracyjne zamiast js</p>
+        <button type="button" onclick="myFunction()">Guzik</button>
+        <br/>
+        <img src="/home/filip/Obrazy/Zdjęcia/pies.png" alt="pies" width="60px" heigth="50px" ><br><br>
+        <form action="action_page.php" method="get">
+            <fieldset>
+                <legend>Dane psa</legend>
+                Imię:
+                <input type="text" name="imie"><br>
+                <p>
+                    <input type="radio" name="plec" value="suka" checked>Suka<br>
+                    <input type="radio" name="plec" value="pies">Pies
+                </p>
+                <input type="submit" value="Zatwierdź">
+            </fieldset>
+        </form>
+        <dl>
+            <dt>Pies</dt>
+            <dd>Zwierz o czterech łapach</dd>
+        </dl>
+        <table>
+            <thead>
+                <tr>
+                    <th>Rasa</th>
+                    <th>Umaszczenie</th>
+                    <th>Grubość</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>Jamnik</td>
+                    <td>brąz</td>
+                    <td>gruby</td>
+                </tr>
+            </tbody>
+        </table>
+    </section>
 
 </body>
 </html>
