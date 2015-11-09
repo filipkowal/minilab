@@ -1,20 +1,24 @@
 header { 
-    height:130px;
+    height:110px;
     text-align:center;
 }
 nav {
     line-height:30px;
-    height:100px;
+    height:50px;
     width:100%;
     /*float:left;*/
     padding:5px;
     text-align:center;
 }
 section {
-    border-left:1px dashed black;
-    width:600px;
-    float:left;
-    padding-left:20px;
+    border:1px dashed blue;
+    width:60%;
+    margin-left:auto;
+    margin-right:auto;
+    padding-left:2em;
+    padding-right:2em;
+    padding-bottom:2em;
+    padding-top:0.75em;
 }
 table { 
     border:1px solid black;
@@ -33,4 +37,15 @@ body{
     font-size: 100%;
     font-family: "Courier New", Courier, monospace;
 }
+#lokalizacja{
+    text-align:center;
+    float:right;
+    width:60%;
+}
+adress{
+    float:left
+}
 
+#mapa{
+    width:100%;
+}
